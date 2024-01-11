@@ -59,6 +59,7 @@ API_KEY=your-api-key-here
 
 ### <div align="center"> 🤔 _Description:_
 
+This project involves the creation of a currency exchange application where users can input an amount in U.S. dollars and select a target currency for conversion. The application makes an API call to retrieve the latest exchange rates from the Exchange Rate API
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)

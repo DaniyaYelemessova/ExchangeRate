@@ -41,8 +41,8 @@ To get started, you'll need to clone this repository to your local machine. Open
 
 ### Setting up the API Key
 
-5. Sign up for an account on [API Provider's Website].
-6. Obtain your API key from the [API Provider's Dashboard].
+5. Sign up for an account on API Provider's Website.
+6. Obtain your API key from the API Provider's Dashboard.
 7. Create a .env file in the root of your project.
 8. Add your API key to the .env file:
 ```
@@ -56,23 +56,8 @@ API_KEY=your-api-key-here
 
 </details>
 
-## <div align="center"> ⌨️ _Tests_
-
-```
-describe('Name', () => {
-
-  test('description of the test', () => {
-    expect().toEqual();
-    expect().toEqual();
-    expect().toEqual();
-  });
-});
-
-```
-
 
 ### <div align="center"> 🤔 _Description:_
-
 
 
 

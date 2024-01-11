@@ -1,5 +1,10 @@
+body{
+  background-color: rgb(240, 251, 255);
+}
+
 h1{
   text-align: center;
+  font-weight: 600;
 }
 
 .currenciesInput{
@@ -36,9 +41,21 @@ select{
 }
 
 #updateRate{
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #errorOutput{
   text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+  .currenciesInput{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #updateRate{
+    font-size: 13px;
+  }
 }

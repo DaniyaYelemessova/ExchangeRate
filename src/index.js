@@ -4,6 +4,15 @@ import './css/styles.css';
 import CurrencyService from './currency-service';
 
 
+async function getCurrency(baseCurrency, targetCurrency, amount){
+  const response = await CurrencyService.getCurrency(baseCurrency, targetCurrency, amount);
+
+  if(response["conversion_rate"]){
+    printElements(response, baseCurrency, targetCurrency,amount);
+  }
+}
+
+
 function handleFormSubmission(e){
   e.preventDefault();
   const baseCurrency = document.querySelector("#baseCurrency").value;

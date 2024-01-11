@@ -68,6 +68,10 @@ This project involves the creation of a currency exchange application where user
 
 - [GitHub page link](https://github.com/DaniyaYelemessova/ExchangeRate.git)
 
+## <div align="center"> 🤔 _Project Link:_
+[Currency-exchanger](https://daniyayelemessova.github.io/ExchangeRate/)
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <div align="center"> _Known Issues_

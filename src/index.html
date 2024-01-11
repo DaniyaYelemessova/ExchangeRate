@@ -9,6 +9,8 @@
   <h1>Currency Exchanger</h1>
   <div id="updateRate"></div>
   <form>
+    <div class="currenciesInput">
+      <div class="inputBox">
     <select id="baseCurrency">
       <option value="usd" selected>&#65284USD</option>
       <option value="krw">&#65510KRW</option>
@@ -20,6 +22,28 @@
       <option value="gbp">&#163GBP</option>
       <option value="cny">&#20803CNY</option>
     </select>
+    <div id="baseOutput">200</div>
+  </div>
+    <input type="number" id="amount" placeholder="Enter amount" required>
+  
+    <div class="outputBox">
+    <select id="convertedCurrency">
+      <option value="usd">&#65284USD</option>
+      <option value="krw">&#65510KRW</option>
+      <option value="eur"  selected>&#8364EUR</option>
+      <option value="aud">&#65284AUD</option>
+      <option value="kzt">&#8376KZT</option>
+      <option value="aed">د.إAED</option>
+      <option value="rub">&#8381RUB</option>
+      <option value="gbp">&#163GBP</option>
+      <option value="cny">&#20803CNY</option>
+    </select>
+    <div id="convertedOutput">600</div>
+  </div>
+  </div>
+    <div class="btn">
+      <button type="submit">Submit</button>
+    </div>
   </form>
 </body>
 </html>

@@ -1,3 +1,37 @@
 h1{
   text-align: center;
 }
+
+.currenciesInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button{
+  width: 200px;
+  background-color: #3041c4;
+  color: white;
+  border: none;
+  padding: 5px 0;
+}
+
+select{
+  background-color: rgb(255, 251, 246);
+}
+
+#baseOutput, #convertedOutput{
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+

@@ -12,6 +12,15 @@ async function getCurrency(baseCurrency, targetCurrency, amount){
   }
 }
 
+function printElements(apiResponse, baseCurrency, targetCurrency, amount){
+  const conversionRate = apiResponse["conversion_rate"];
+  const convertedAmount = amount * conversionRate;
+  document.querySelector("#baseOutput").innerText = `${amount} ${apiResponse.base_code}`;
+  document.querySelector("#convertedOutput").innerText = ` ${convertedAmount.toFixed(2)} ${targetCurrency}`;
+  document.getElementById("updateRate").innerText = `Last updated: ${apiResponse.time_last_update_utc}`;
+}
+
+
 
 function handleFormSubmission(e){
   e.preventDefault();

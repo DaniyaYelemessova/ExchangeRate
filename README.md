@@ -65,7 +65,7 @@ API_KEY=your-api-key-here
 
 ## <div align="center"> <img src="src/images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
 
-- [GitHub page link](https://github.com/DaniyaYelemessova)
+- [GitHub page link](https://github.com/DaniyaYelemessova/ExchangeRate.git)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

@@ -1,6 +1,6 @@
 ## <div align="center">Currency Exchanger</div>
 
-#### <div align="center">💻 _Learning project for Asynchrony and APIs 01/10/2024_ </div>
+#### <div align="center">💻 _Learning project for Asynchrony and APIs </div>
 
 **_<p align="right">By Daniya Yelemessova_**</p>
 

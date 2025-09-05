@@ -84,7 +84,7 @@ This project involves the creation of a currency exchange application where user
 
 ## <div align="center"> 📘 _License and copyright:_
 
-> **_© Daniya Yelemessova, 2023_**  
+> **_© Daniya Yelemessova**  
 > ⚖️ _[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)_
 
 
